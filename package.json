@@ -2,12 +2,29 @@
   "name": "@saas-cloud-autoscaler/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:scaler": "cd ./apps/saas-cloud-scaler && npm run build",
+    "build:auth": "cd ./apps/saas-cloud-scaler-auth && npm run build",
+    "build:gateway": "cd ./apps/saas-cloud-scaler-gateway && npm run build",
+    "build:user": "cd ./apps/saas-cloud-scaler-user && npm run build",
+    "start:scaler": "cd ./apps/saas-cloud-scaler && npm run start",
+    "start:auth": "cd ./apps/saas-cloud-scaler-auth && npm run start",
+    "start:gateway": "cd ./apps/saas-cloud-scaler-gateway && npm run start",
+    "start:user": "cd ./apps/saas-cloud-scaler-user && npm run start"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nx/js": "20.5.0",
-    "nx": "20.5.0"
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-unused-imports": "^4.1.4",
+    "fta-cli": "^2.0.1",
+    "nx": "20.5.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
   },
   "workspaces": [
     "packages/*"

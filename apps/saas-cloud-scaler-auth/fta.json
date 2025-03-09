@@ -1,0 +1,5 @@
+{
+  "exclude_under": 5,
+  "include_comments": false,
+  "format": "table"
+}

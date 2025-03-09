@@ -1,0 +1,1 @@
+[{"file_name":"new.service.spec.ts","cyclo":1,"halstead":{"uniq_operators":9,"uniq_operands":15,"total_operators":29,"total_operands":22,"program_length":51,"vocabulary_size":24,"volume":233.83308753677895,"difficulty":5.866666666666666,"effort":1371.8207802157697,"time":76.21226556754276,"bugs":0.07794436251225965},"line_count":14,"fta_score":9.79876018585341,"assessment":"OK"}]
